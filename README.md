@@ -18,3 +18,15 @@
    npm run dev
 The frontend will be available at http://localhost:3000.
 📌 For more details, check the frontend repository: [Live Dashboard(Frontend)](https://github.com/ashusketch382/live_dashboard.git)
+
+⚙️ Backend Setup
+Clone the backend repository:
+```sh
+   git clone https://github.com/ashusketch382/live_build.git
+   cd live_build
+   npm install
+   cp .env.example .env
+   node index.js
+```
+The backend will run on http://localhost:8080.
+📌 For more details, check the backend repository: [Live Build (Backend)](https://github.com/ashusketch382/live_build.git)
